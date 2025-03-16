@@ -1,8 +1,8 @@
 {
-  "name": "vite-plugin-stylex",
+  "name": "@shaywiin/vite-plugin-stylex",
   "version": "0.13.0",
   "description": "Vite Plugin for StyleX",
-  "author": "Horus Lugo <hola@horus.dev>",
+  "author": "Shay Wiin",
   "license": "MIT",
   "files": [
     "dist",
@@ -14,7 +14,7 @@
     "css-in-js",
     "plugin"
   ],
-  "repository": "https://www.github.com/HorusGoul/vite-plugin-stylex",
+  "repository": "https://github.com/shaywiin/vite-plugin-stylex/",
   "sideEffects": false,
   "exports": {
     "./package.json": "./package.json",

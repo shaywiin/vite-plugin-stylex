@@ -330,6 +330,7 @@ export default function styleXVitePlugin({
           .transformAsync(inputCode, {
             babelrc: false,
             filename: filePath,
+            sourceMaps: true,
             plugins: [
               /\.jsx?/.test(path.extname(id))
                 ? flowSyntaxPlugin
